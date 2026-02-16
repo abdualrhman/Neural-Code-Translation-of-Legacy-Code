@@ -5,7 +5,7 @@ This repository contains the code developed as part of the master’s thesis **N
 ## Data Availability and Reproducibility
 
 **The datasets used in this thesis are confidential and cannot be shared.**  
-As a result, the experimental results reported in the thesis are **not directly reproducible** using this repository alone.
+As a result, the experimental results reported in the thesis are not directly reproducible using this repository alone.
 
 The code is provided to document the implementation, experimental setup, and evaluation pipeline used in the thesis.
 
@@ -16,6 +16,10 @@ The codebase supports:
 - Fine-tuning and inference workflows for open-weight language models
 - Retrieval-augmented generation using APL reference material
 - Iterative translation pipelines that use compilation and test errors as feedback
+
+`./AplHeaderParser` extracts function signatures and type information from APL headers
+
+`./CSharpTester` compiles and executes the generated C# code to evaluate correctness using automated tests.
 
 ## Execution Environment
 
@@ -28,8 +32,11 @@ The code is designed to run on a **high-performance computing (HPC) environment*
 ## Closed-Weight Models
 
 For experiments using closed-weight (API-based) models, the following environment variables must be defined in the `.env` file:
+
+```
 SUBSCRIPTION_KEY=
 ENDPOINT=
+```
 
 These are used to authenticate and access the corresponding model APIs.
 
