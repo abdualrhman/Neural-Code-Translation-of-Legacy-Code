@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Logs and outputs
+*.log
+batch_output/
+wandb/
+runs/
+
+# Model artifacts
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+checkpoints/
+models/
+
+# Dataset artifacts (confidential)
+data/
+datasets/
+
+# HPC / job system artifacts
+*.out
+*.err
+*.job
+*.sbatch
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp

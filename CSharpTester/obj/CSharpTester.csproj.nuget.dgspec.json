@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/abdulrhmanramadan/Documents/apl-to-csharp-translator/CSharpTester/CSharpTester.csproj": {}
+  },
+  "projects": {
+    "/Users/abdulrhmanramadan/Documents/apl-to-csharp-translator/CSharpTester/CSharpTester.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abdulrhmanramadan/Documents/apl-to-csharp-translator/CSharpTester/CSharpTester.csproj",
+        "projectName": "CSharpTester",
+        "projectPath": "/Users/abdulrhmanramadan/Documents/apl-to-csharp-translator/CSharpTester/CSharpTester.csproj",
+        "packagesPath": "/Users/abdulrhmanramadan/.nuget/packages/",
+        "outputPath": "/Users/abdulrhmanramadan/Documents/apl-to-csharp-translator/CSharpTester/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abdulrhmanramadan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
